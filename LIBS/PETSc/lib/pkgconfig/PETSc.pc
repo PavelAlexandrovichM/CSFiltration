@@ -1,0 +1,15 @@
+prefix=/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${prefix}/lib
+ccompiler=win32fe cl
+cflags_extra=-O2 -MD -wd4996
+cflags_dep=
+ldflag_rpath=-R
+
+Name: PETSc
+Description: Library to solve ODEs and algebraic equations
+Version: 3.11.1
+Cflags:  -I${includedir} -I/cygdrive/d/LIBS/petsc-3.11.1/include
+Libs: -L${libdir} -lpetsc
+Libs.private: -L/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt/lib /cygdrive/c/Program\ Files\ \(x86\)/Microsoft\ SDKs/MPI/Lib/x64/msmpi.lib Gdi32.lib User32.lib Advapi32.lib Kernel32.lib Ws2_32.lib -lf2clapack -lf2cblas

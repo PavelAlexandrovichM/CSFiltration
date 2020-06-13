@@ -1,0 +1,26 @@
+Running test examples to verify correct installation
+Using PETSC_DIR=/cygdrive/d/LIBS/petsc-3.11.1 and PETSC_ARCH=arch-mswin-c-opt
+[1;31m*******************Error detected during compile or link!*******************
+See http://www.mcs.anl.gov/petsc/documentation/faq.html
+/cygdrive/d/LIBS/petsc-3.11.1/src/snes/examples/tutorials ex19
+*********************************************************************************[0;39m[0;49m
+win32fe cl -o ex19.o -c -O2 -MD -wd4996     -I/cygdrive/d/LIBS/petsc-3.11.1/include -I/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt/include -I/cygdrive/c/Program\ Files\ \(x86\)/Microsoft\ SDKs/MPI/Include    `pwd`/ex19.c
+ex19.c
+win32fe cl -O2 -MD -wd4996    -o ex19 ex19.o  -R/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt/lib -L/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt/lib -R/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt/lib -L/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt/lib /cygdrive/c/Program\ Files\ \(x86\)/Microsoft\ SDKs/MPI/Lib/x64/msmpi.lib Gdi32.lib User32.lib Advapi32.lib Kernel32.lib Ws2_32.lib -lpetsc -lf2clapack -lf2cblas
+cl: командная строка warning D9002: пропуск неизвестного параметра "-R/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt/lib"
+cl: командная строка warning D9002: пропуск неизвестного параметра "-R/cygdrive/d/LIBS/petsc-3.11.1/arch-mswin-c-opt/lib"
+true ex19
+rm ex19.o
+Possible error running C/C++ src/snes/examples/tutorials/ex19 with 1 MPI process
+See http://www.mcs.anl.gov/petsc/documentation/faq.html
+lid velocity = 0.0016, prandtl # = 1., grashof # = 1.
+Number of SNES iterations = 2
+[pavel-pc:23993] [[5537,0],0] unable to open debugger attach fifo
+Possible error running C/C++ src/snes/examples/tutorials/ex19 with 2 MPI processes
+See http://www.mcs.anl.gov/petsc/documentation/faq.html
+lid velocity = 0.0016, prandtl # = 1., grashof # = 1.
+Number of SNES iterations = 2
+lid velocity = 0.0016, prandtl # = 1., grashof # = 1.
+[pavel-pc:23997] [[5541,0],0] unable to open debugger attach fifo
+Number of SNES iterations = 2
+Completed test examples
