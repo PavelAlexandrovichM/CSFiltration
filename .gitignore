@@ -38,3 +38,15 @@
 /prj/Release/vc100.pdb
 /prj/ipch/csfiltr-13bc9b1b/csfiltr-1d3fc9dd.ipch
 /prj/ipch/csfiltr-13bc9b1b/csfiltr-8ef9ade3.ipch
+*.ipch
+*.tlog
+/prj/x64/Debug/CSFiltr.exe
+/prj/x64/Debug/*.log
+/prj/x64/Debug/*.obj
+/prj/x64/Debug/vc100.pdb
+/prj/x64/Debug/*.ilk
+/prj/x64/Debug/*.pdb
+/prj/x64/Debug/*.idb
+/prj/x64/Debug/*.cache
+/prj/x64/Debug/*.manifest
+/prj/x64/Debug/*.lastbuildstate
