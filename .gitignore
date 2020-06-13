@@ -50,3 +50,4 @@
 /prj/x64/Debug/*.cache
 /prj/x64/Debug/*.manifest
 /prj/x64/Debug/*.lastbuildstate
+/prj/*.sdf
