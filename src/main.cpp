@@ -1,7 +1,10 @@
 #include "stdio.h"
+#include "mesh.h"
 
 int main(int argc, char* argv){
-    printf("HELLO GITHUB\n");
-	printf("new changes1\n");
+    printf("program for modeling filtration of water in cross sectional view\n");
+	MESH my_mesh;
+
+
 	return 0;
 }
