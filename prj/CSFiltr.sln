@@ -7,6 +7,8 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
+		DebugMPI|Win32 = DebugMPI|Win32
+		DebugMPI|x64 = DebugMPI|x64
 		Release|Win32 = Release|Win32
 		Release|x64 = Release|x64
 	EndGlobalSection
@@ -15,6 +17,10 @@ Global
 		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.Debug|Win32.Build.0 = Debug|Win32
 		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.Debug|x64.ActiveCfg = Debug|x64
 		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.Debug|x64.Build.0 = Debug|x64
+		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.DebugMPI|Win32.ActiveCfg = DebugMPI|Win32
+		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.DebugMPI|Win32.Build.0 = DebugMPI|Win32
+		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.DebugMPI|x64.ActiveCfg = DebugMPI|x64
+		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.DebugMPI|x64.Build.0 = DebugMPI|x64
 		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.Release|Win32.ActiveCfg = Release|Win32
 		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.Release|Win32.Build.0 = Release|Win32
 		{72D51E8D-434E-4AD3-B4E0-529C4D9C943E}.Release|x64.ActiveCfg = Release|x64

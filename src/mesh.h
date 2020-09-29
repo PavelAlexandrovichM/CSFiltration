@@ -36,6 +36,7 @@ public:
 	std::vector<FACE> faces;
 	std::vector<NODE> nodes;
 	int READ_MSH(char* filename);
+	int READ_DISTRIBUTE_MESH(char* filename,int nproc);
 };
 
 
